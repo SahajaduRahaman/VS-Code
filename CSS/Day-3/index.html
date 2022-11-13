@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="personal_details" method="POST" action="http:myserver">
+        <fieldset>
+            <legend>Taking User's personal details</legend>
+            <label for="name">Enter Name : </label>
+            <input value="Rahul" id="name" name="name" placeholder="Enter Full name" type="name" required>
+            <br>
+            <label for="age">Enter Age : </label>
+            <input id="age" name="age" placeholder="Enter Age" type="number" required>
+            <br>
+            <label for="email">Enter Email : </label>
+            <input placeholder="Enter email" id="email" name="email" type="email">
+            <br>
+        </fieldset>
+        <label for="password">Enter Password : </label>
+        <input placeholder="Enter Password" id="password" name="password" type="password">
+        <br>
+        <label for="gender">Select Gender</label>
+        <input id="gender" name="gender" type="radio">
+        <label for="male">Male</label>
+        <input id="gender" name="gender" type="radio">
+        <label for="female">Female</label>
+        <br>
+         <input name="acceptence" id="acceptence" type="checkbox">
+         <label for="acceptence">Accept all terms & conditions.</label>
+        <br>
+        <input placeholder="Choose color" type="color">
+        <input placeholder="search" type="search">
+        <input placeholder="city" type="city">
+        <input placeholder="state" type="state">
+        <input placeholder="Telephone No." type="tel">
+        <input placeholder="Link" type="url">
+        <input placeholder="Choose File" type="file">
+        <input type="hidden">
+        <input placeholder="Enter Date" type="date">
+        <input type="time">
+        <input type="range" min="0" value="20" max="100" >
+        <br>
+        <label for="browser">Select Browser</label>
+        <!-- <select name="browser" id="browser">
+            <option value="chrome browser">Chrome Browser</option>
+            <option value="firefox">Firefox</option>
+            <option value="internet explorer">Internet Explorer</option>
+        </select>' -->
+        <br>
+        <textarea name="" id="" cols="30" rows="10">
+            
+        </textarea>
+        <br>
+        <input type="text" list="browser" >
+          <datalist id="browser" >
+            <option value="chrome browser">
+            <option value="firefox">
+            <option value="internet explorer">
+          </datalist>
+         <br>
+        <input type="submit" value="Submit" >
+
+
+        <!-- <button type="button" id="submit" >Submit</button> -->
+    </form>
+</body>
+</html>
+<!-- CRUD 
+C- Post
+R- Get
+U- Post
+D- Delete
+-->

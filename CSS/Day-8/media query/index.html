@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .box {
+        width: 70%;
+        margin: 30px auto;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+      }
+      .box > div {
+        height: 100px;
+        width: 100px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+          rgba(82, 52, 52, 0.3) 0px 18px 36px -18px inset;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+      }
+      @media screen and (min-width: 50px) and (max-width: 391px) {
+        .box{
+            width: 95%;
+            grid-template-columns: repeat(3, 1fr);
+
+        }
+        .box > div {
+          height: 50px;
+          width: 50px;
+        }
+      }
+      @media screen and (min-width: 392px) and (max-width: 769
+      px) {
+        .box{
+            width: 95%;
+            grid-template-columns: repeat(4, 1fr);
+
+        }
+        .box > div {
+          height: 70px;
+          width: 70px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+    </div>
+  </body>
+</html>
