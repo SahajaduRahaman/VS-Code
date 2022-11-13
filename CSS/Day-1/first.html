@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: teal;
+            font-style: italic;
+        }
+        #heading{
+            text-align: center;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form id="Personal Info" method="post">
+        <h1 id="heading">This is Personal Info</h1>
+        <fieldset>
+            <label for="name">Name : </label>
+            <input id="name" type="text" name="name" placeholder="Enter Name" required>
+            <br>
+            <br>
+            <label for="email">Email : </label>
+            <input id="email" type="email" name="email" placeholder="Enter Email" required>
+            <br>
+            <br>
+            <label for="gender">Select Gender</label>
+            <input id="gender" type="radio" name="gender" value="Male" required>
+            <label for="Male">Male</label>
+            <input id="gender" type="radio" name="gender" value="Female" required>
+            <label for="female">Female</label>
+            <br>
+            <br>
+            <label for="cars">Car Brands</label>
+            <select id="cars">
+                <option value="BMW">BMW
+                <option value="Audi">Audi
+                <option value="Mercedez">Mercedez
+            </select>
+            <br>
+            <br>
+            <label for="age">Age</label>
+            <input id="age" type="text" name="age" placeholder="Enter Age" required>
+            <br>
+            <br>
+            <label for="dob">DOB</label>
+            <input id="dob" type="date" name="dob" required>
+            <br>
+            <br>
+            <label for="password">Password</label>
+            <input id="password" type="password" name="password" placeholder="Enter Password" required>
+        </fieldset>
+    </form>
+</body>
+</html>
