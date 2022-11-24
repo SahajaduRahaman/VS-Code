@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    background-color: aqua;
+    height: 7vh;
+    min-height: 70px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a{
+    font-size: 1em;
+    font-weight: bold;
+}
