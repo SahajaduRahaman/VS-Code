@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navigation {
+    height: 50px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+.electronics {
+    display: flex;
+    position: relative;
+    display: inline-block;
+}
+.electronics span {
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    display: flex;
+}
+.electronics span:hover {
+    font-weight: bold;
+    color: blue;
+}
+.electronics-contends {
+    text-align: center;
+    display: none;
+    border-radius: 2px;
+    position: absolute;
+    background-color: cyan;
+    min-width: 100px;
+    box-shadow: 0px 0px 3px 0px black;
+    padding: 8px 8px;
+}
+.electronics:hover .electronics-contends {
+    display: block;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    font-weight: bold;
+}
