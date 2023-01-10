@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+}
+
+#opponent-choice {
+    width: 240px;
+    height: 240px;
+    margin-top: 10px;
+}
+
+#your-choice {
+    width: 240px;
+    height: 240px;
+    margin-top: 10px; 
+}
+
+#choices {
+    width: 240px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+#choices img {
+    width: 80px;
+    height: 80px;
+}

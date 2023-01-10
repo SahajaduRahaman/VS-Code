@@ -1,0 +1,77 @@
+.input-and-button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin: 15px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgb(0, 2, 5);
+    background-color: blue;
+}
+
+.button:active{
+    background-color: rgba(13, 85, 6, 0.884);
+    box-shadow: none;
+}
+
+.success {
+    background-color: #009ada;
+}
+
+.success:hover {
+    background-color: #0ba5e5;
+}
+
+.delete {
+    background-color: #ec164c;
+}
+
+.delete:hover {
+    background-color: #f44572;
+}
+
+.add-button {
+    margin-left: 8px;
+}
+
+.comment-wrapper {
+    width: 600px;
+    margin: 20px auto;
+}
+
+.comment {
+    margin-left: 28px;
+    margin-top: 8px;
+}
+
+.comment-text {
+    font-size: 32px;
+}
+
+.button-and-likes-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.likes-text {
+    font-size: 20px;
+}
+
+.reply-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.hide-reply > .reply-wrapper {
+    display: none;
+}
