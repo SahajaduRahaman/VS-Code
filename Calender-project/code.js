@@ -68,6 +68,7 @@ const renderCalendar = () => {
   }
 
   // this is for creating div for current months days.
+  // new update
 
   for (let i = 1; i <= monthLastDay; i++) {
     if (
